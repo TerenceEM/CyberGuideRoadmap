@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réglementation et Normes - CyberGuide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">🛡️ CyberGuide</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="secteurs.html">Votre Contexte</a></li>
+                <li><a href="sensibilisation.html">Sensibilisation</a></li>
+                <li><a href="reglementation.html">Réglementation</a></li>
+                <li><a href="acteurs.html">Acteurs</a></li>
+                <li><a href="prestataires.html">Prestataires</a></li>
+                <li><a href="outils.html">Outils</a></li>
+                <li><a href="action.html">Quiz & Checklist</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Réglementation et Normes</h1>
+            <p class="subtitle">Identifiez vos obligations légales et les référentiels applicables</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Pourquoi la conformité réglementaire ?</h2>
+            <p>La cybersécurité n'est pas qu'une question technique, c'est aussi une obligation légale. Selon votre secteur, votre taille et votre activité, différentes réglementations et normes peuvent s'appliquer. La non-conformité peut entraîner des sanctions financières lourdes et une responsabilité juridique.</p>
+
+            <p><strong>Cette page vous aide à identifier quelles réglementations et normes concernent votre organisation.</strong></p>
+        </section>
+
+        <section>
+            <h2>Réglementations applicables selon votre contexte</h2>
+
+            <div class="secteur-card">
+                <h3>🌍 RGPD - Règlement Général sur la Protection des Données</h3>
+                <p><strong>Applicable à :</strong> TOUTES les organisations traitant des données personnelles de résidents européens</p>
+                <p><strong>Depuis :</strong> Mai 2018</p>
+
+                <h4>Périmètre et implications</h4>
+                <ul>
+                    <li>S'applique dès que vous collectez, stockez ou traitez des données à caractère personnel (nom, email, adresse IP, cookies, etc.)</li>
+                    <li>Obligation de sécuriser les données (mesures techniques et organisationnelles)</li>
+                    <li>Principe de minimisation : ne collecter que le nécessaire</li>
+                    <li>Droit des personnes : accès, rectification, effacement, portabilité</li>
+                    <li>Notification obligatoire à la CNIL sous 72h en cas de violation de données</li>
+                    <li>Tenue d'un registre des traitements</li>
+                    <li>Analyse d'impact (APIA) pour les traitements à risque</li>
+                </ul>
+
+                <h4>Sanctions</h4>
+                <p>Jusqu'à <strong>20 millions d'euros</strong> ou <strong>4% du chiffre d'affaires annuel mondial</strong> (le montant le plus élevé)</p>
+
+                <h4>Premières actions à initier</h4>
+                <ul class="checklist">
+                    <li>Cartographier tous les traitements de données personnelles</li>
+                    <li>Créer et tenir à jour un registre des traitements</li>
+                    <li>Mettre en place une politique de confidentialité transparente</li>
+                    <li>Implémenter les mesures de sécurité appropriées (chiffrement, contrôle d'accès, etc.)</li>
+                    <li>Former les équipes au RGPD</li>
+                    <li>Désigner un DPO si requis (obligatoire pour le secteur public, grandes entreprises, traitement sensible à grande échelle)</li>
+                    <li>Prévoir un processus de notification de violation</li>
+                </ul>
+
+                <p><strong>Source officielle :</strong> <a href="https://www.cnil.fr/" target="_blank">CNIL.fr</a></p>
+            </div>
+
+            <div class="secteur-card">
+                <h3>🛡️ NIS 2 - Directive sur la Sécurité des Réseaux et des Systèmes d'Information</h3>
+                <p><strong>Applicable à :</strong> Opérateurs de services essentiels (OES) et fournisseurs de services numériques (FSN)</p>
+                <p><strong>En vigueur :</strong> Octobre 2024 (transposition en cours en France)</p>
+
+                <h4>Secteurs concernés</h4>
+                <ul>
+                    <li><strong>Secteurs hautement critiques :</strong> Énergie, Transports, Banque, Santé, Eau potable, Infrastructures numériques</li>
+                    <li><strong>Autres secteurs critiques :</strong> Services postaux, Gestion des déchets, Chimie, Alimentation, Fabrication, Fournisseurs numériques, Recherche</li>
+                    <li>S'applique aux entités de taille moyenne et grande (>50 employés ou >10M€ CA)</li>
+                </ul>
+
+                <h4>Obligations principales</h4>
+                <ul>
+                    <li>Mesures de gestion des risques de cybersécurité</li>
+                    <li>Notification d'incidents significatifs sous 24h</li>
+                    <li>Sécurité de la chaîne d'approvisionnement</li>
+                    <li>Chiffrement et authentification forte</li>
+                    <li>Gestion de crise et continuité d'activité</li>
+                </ul>
+
+                <h4>Sanctions</h4>
+                <p>Jusqu'à <strong>10 millions d'euros</strong> ou <strong>2% du CA mondial</strong> pour les entités essentielles</p>
+
+                <h4>Premières actions</h4>
+                <ul class="checklist">
+                    <li>Déterminer si votre organisation est concernée par NIS2</li>
+                    <li>Réaliser une analyse de risques complète</li>
+                    <li>Mettre en place des mesures de sécurité techniques (EDR, MFA, segmentation, etc.)</li>
+                    <li>Établir un processus de notification d'incidents</li>
+                    <li>Former le management et le conseil d'administration</li>
+                    <li>Évaluer la sécurité de vos fournisseurs critiques</li>
+                </ul>
+
+                <p><strong>Source officielle :</strong> <a href="https://www.ssi.gouv.fr/" target="_blank">ANSSI.fr</a></p>
+            </div>
+
+            <div class="secteur-card">
+                <h3>🏥 Secteur Santé - Réglementations spécifiques</h3>
+
+                <h4>Hébergement de Données de Santé (HDS)</h4>
+                <p><strong>Applicable à :</strong> Tout hébergeur de données de santé à caractère personnel</p>
+                <ul>
+                    <li>Certification obligatoire pour héberger des données de santé</li>
+                    <li>Exigences strictes : traçabilité, disponibilité, intégrité, confidentialité</li>
+                    <li>Audits réguliers obligatoires</li>
+                </ul>
+                <p><strong>Source :</strong> <a href="https://esante.gouv.fr/" target="_blank">Agence du Numérique en Santé</a></p>
+
+                <h4>Politique Générale de Sécurité des Systèmes d'Information de Santé (PGSSI-S)</h4>
+                <ul>
+                    <li>Référentiel pour tous les systèmes d'information de santé</li>
+                    <li>42 objectifs de sécurité à atteindre</li>
+                    <li>Homologation de sécurité obligatoire</li>
+                </ul>
+            </div>
+
+            <div class="secteur-card">
+                <h3>🏦 Secteur Financier - Réglementations spécifiques</h3>
+
+                <h4>DORA - Digital Operational Resilience Act</h4>
+                <p><strong>Applicable à :</strong> Toutes les entités financières de l'UE</p>
+                <p><strong>En vigueur :</strong> Janvier 2025</p>
+                <ul>
+                    <li>Gestion des risques liés aux TIC</li>
+                    <li>Reporting d'incidents obligatoire</li>
+                    <li>Tests de résilience opérationnelle</li>
+                    <li>Gestion des risques liés aux prestataires tiers</li>
+                    <li>Partage d'informations sur les cybermenaces</li>
+                </ul>
+
+                <h4>Directives bancaires (PSD2, MiFID II)</h4>
+                <ul>
+                    <li>Authentification forte obligatoire pour les paiements</li>
+                    <li>Sécurisation des APIs bancaires</li>
+                    <li>Protection des données de transaction</li>
+                </ul>
+            </div>
+
+            <div class="secteur-card">
+                <h3>⚡ Opérateurs d'Importance Vitale (OIV)</h3>
+                <p><strong>Applicable à :</strong> Opérateurs d'infrastructures critiques désignés par l'État</p>
+                <p><strong>Secteurs :</strong> Énergie, Transports, Santé, Eau, Alimentation, Communications, Finance, Industrie, Espace, Recherche, Administration</p>
+
+                <h4>Obligations</h4>
+                <ul>
+                    <li>Homologation de sécurité des systèmes d'information d'importance vitale (SIIV)</li>
+                    <li>Mise en place de mesures de sécurité renforcées</li>
+                    <li>Notification d'incidents à l'ANSSI</li>
+                    <li>Contrôles réguliers par l'ANSSI</li>
+                    <li>Règles de sécurité strictes définies par arrêté sectoriel</li>
+                </ul>
+
+                <p><strong>Contact :</strong> ANSSI pour toute question sur le statut OIV</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Normes et référentiels volontaires</h2>
+            <p>Ces normes ne sont pas obligatoires mais constituent des bonnes pratiques reconnues. Certaines certifications sont exigées contractuellement par des clients.</p>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>ISO/IEC 27001</h3>
+                    <p><strong>Norme internationale de management de la sécurité de l'information</strong></p>
+                    <h4>Avantages</h4>
+                    <ul>
+                        <li>Cadre structuré pour gérer la sécurité</li>
+                        <li>Reconnaissance internationale</li>
+                        <li>Souvent exigée dans les appels d'offres</li>
+                        <li>Amélioration continue (cycle PDCA)</li>
+                    </ul>
+                    <h4>Pour qui ?</h4>
+                    <p>Toute organisation souhaitant démontrer son engagement en sécurité</p>
+                    <h4>Comment ?</h4>
+                    <ul>
+                        <li>Analyse de risques</li>
+                        <li>Mise en place de 93 mesures de sécurité (Annexe A)</li>
+                        <li>Audit de certification par organisme accrédité</li>
+                        <li>Surveillance annuelle et recertification tous les 3 ans</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>ISO/IEC 27002</h3>
+                    <p><strong>Code de bonnes pratiques en sécurité de l'information</strong></p>
+                    <p>Guide de mise en œuvre des contrôles de sécurité. Complément de l'ISO 27001.</p>
+                    <p>93 mesures organisées en 4 catégories : Organisationnelles, Personnes, Physiques, Technologiques</p>
+                </div>
+
+                <div class="card">
+                    <h3>ISO/IEC 27701</h3>
+                    <p><strong>Extension de l'ISO 27001 pour la protection de la vie privée</strong></p>
+                    <p>Utile pour démontrer la conformité RGPD dans un cadre ISO</p>
+                </div>
+
+                <div class="card">
+                    <h3>SOC 2 (Service Organization Control)</h3>
+                    <p><strong>Pour les fournisseurs de services cloud et SaaS</strong></p>
+                    <h4>Critères évalués</h4>
+                    <ul>
+                        <li>Sécurité</li>
+                        <li>Disponibilité</li>
+                        <li>Intégrité du traitement</li>
+                        <li>Confidentialité</li>
+                        <li>Vie privée</li>
+                    </ul>
+                    <p><strong>Types :</strong> SOC 2 Type I (conception) et Type II (efficacité opérationnelle sur une période)</p>
+                </div>
+
+                <div class="card">
+                    <h3>PCI DSS</h3>
+                    <p><strong>Payment Card Industry Data Security Standard</strong></p>
+                    <p><strong>Obligatoire pour :</strong> Toute organisation qui stocke, traite ou transmet des données de cartes bancaires</p>
+                    <h4>12 exigences</h4>
+                    <ul>
+                        <li>Pare-feu et segmentation réseau</li>
+                        <li>Changement des mots de passe par défaut</li>
+                        <li>Protection des données de titulaires de cartes</li>
+                        <li>Chiffrement des transmissions</li>
+                        <li>Antimalware</li>
+                        <li>Systèmes et applications sécurisés</li>
+                        <li>Contrôle d'accès stricte</li>
+                        <li>Identification unique</li>
+                        <li>Restriction d'accès physique</li>
+                        <li>Surveillance et logs</li>
+                        <li>Tests de sécurité réguliers</li>
+                        <li>Politique de sécurité</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Guide d'hygiène informatique ANSSI</h3>
+                    <p><strong>Référentiel français gratuit et accessible</strong></p>
+                    <p>42 règles essentielles pour une hygiène informatique de base</p>
+                    <p><strong>Idéal pour :</strong> PME/TPE débutant leur démarche de sécurisation</p>
+                    <p><strong>Source :</strong> <a href="https://www.ssi.gouv.fr/guide/guide-dhygiene-informatique/" target="_blank">Guide ANSSI</a></p>
+                </div>
+
+                <div class="card">
+                    <h3>NIST Cybersecurity Framework</h3>
+                    <p><strong>Cadre américain largement adopté internationalement</strong></p>
+                    <h4>5 fonctions</h4>
+                    <ul>
+                        <li>Identifier</li>
+                        <li>Protéger</li>
+                        <li>Détecter</li>
+                        <li>Répondre</li>
+                        <li>Récupérer</li>
+                    </ul>
+                    <p>Flexible et adapté à toutes tailles d'organisation</p>
+                </div>
+
+                <div class="card">
+                    <h3>CIS Controls</h3>
+                    <p><strong>Center for Internet Security - 18 contrôles de sécurité prioritaires</strong></p>
+                    <p>Approche pragmatique centrée sur les mesures les plus efficaces</p>
+                    <p>3 niveaux de maturité (IG1, IG2, IG3) selon la taille et les ressources</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Outil d'orientation : Quelles réglementations me concernent ?</h2>
+            <p>Répondez aux questions suivantes pour identifier les principales réglementations applicables à votre organisation :</p>
+
+            <div class="quiz-container">
+                <div class="question">
+                    <h3>1. Votre organisation traite-t-elle des données personnelles ?</h3>
+                    <div class="options">
+                        <li><strong>Oui</strong> → ✅ RGPD obligatoire</li>
+                        <li><strong>Non</strong> → RGPD probablement non applicable (rare)</li>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>2. Quel est votre secteur d'activité ?</h3>
+                    <div class="options">
+                        <li><strong>Santé</strong> → ✅ RGPD + HDS (si hébergement) + PGSSI-S</li>
+                        <li><strong>Finance/Banque</strong> → ✅ RGPD + NIS2 + DORA + directives bancaires</li>
+                        <li><strong>Énergie, Transports, Eau</strong> → ✅ RGPD + NIS2 + possiblement OIV</li>
+                        <li><strong>E-commerce avec paiement CB</strong> → ✅ RGPD + PCI DSS</li>
+                        <li><strong>Services numériques (cloud, SaaS)</strong> → ✅ RGPD + possiblement NIS2</li>
+                        <li><strong>Industrie</strong> → ✅ RGPD + possiblement NIS2 selon taille</li>
+                        <li><strong>Administration/Collectivité</strong> → ✅ RGPD + RGS + possiblement OIV</li>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>3. Taille de votre organisation ?</h3>
+                    <div class="options">
+                        <li><strong>&gt; 50 employés ou &gt; 10M€ CA</strong> et secteur critique → Probablement concerné par NIS2</li>
+                        <li><strong>&lt; 50 employés</strong> → NIS2 non applicable (sauf exception)</li>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>4. Avez-vous été désigné Opérateur d'Importance Vitale ?</h3>
+                    <div class="options">
+                        <li><strong>Oui</strong> → ✅ Obligations OIV (règles ANSSI strictes)</li>
+                        <li><strong>Non</strong> → Obligations OIV non applicables</li>
+                        <li><strong>Je ne sais pas</strong> → Vérifiez auprès de votre ministère de tutelle ou l'ANSSI</li>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>5. Traitez-vous des paiements par carte bancaire ?</h3>
+                    <div class="options">
+                        <li><strong>Oui</strong> → ✅ PCI DSS obligatoire</li>
+                        <li><strong>Non ou via prestataire externe uniquement</strong> → PCI DSS non applicable directement</li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="emergency-box">
+                <h3>Besoin d'aide pour déterminer vos obligations ?</h3>
+                <ul>
+                    <li>📞 <strong>ANSSI</strong> : Questions sur NIS2, OIV, sécurité des SI</li>
+                    <li>📞 <strong>CNIL</strong> : Questions sur RGPD et données personnelles</li>
+                    <li>📞 <strong>Votre autorité sectorielle</strong> : Questions spécifiques à votre secteur</li>
+                </ul>
+                <p>Consultez aussi un avocat spécialisé en droit du numérique ou un consultant en conformité.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Prochaines étapes</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>🤝 Acteurs et ressources</h3>
+                    <p>Découvrez les acteurs étatiques qui peuvent vous accompagner</p>
+                    <a href="acteurs.html" class="btn">Voir les acteurs</a>
+                </div>
+                <div class="card">
+                    <h3>👥 Prestataires</h3>
+                    <p>Trouvez des experts pour vous aider (audit, conformité, conseil)</p>
+                    <a href="prestataires.html" class="btn">Voir les prestataires</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CyberGuide - Plateforme d'orientation en cybersécurité pour entreprises</p>
+        </div>
+    </footer>
+</body>
+</html>

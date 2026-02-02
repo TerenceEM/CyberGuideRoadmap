@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Contexte - CyberGuide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">🛡️ CyberGuide</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="secteurs.html">Votre Contexte</a></li>
+                <li><a href="sensibilisation.html">Sensibilisation</a></li>
+                <li><a href="reglementation.html">Réglementation</a></li>
+                <li><a href="acteurs.html">Acteurs</a></li>
+                <li><a href="prestataires.html">Prestataires</a></li>
+                <li><a href="outils.html">Outils</a></li>
+                <li><a href="action.html">Quiz & Checklist</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Identifiez votre contexte</h1>
+            <p class="subtitle">Chaque secteur a ses spécificités en matière de cybersécurité</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Pourquoi identifier votre secteur ?</h2>
+            <p>Les menaces cyber, les actifs critiques et les réglementations varient considérablement selon votre secteur d'activité. Comprendre votre contexte spécifique vous permet de prioriser les bonnes mesures de sécurité.</p>
+        </section>
+
+        <section class="secteur-card">
+            <h3>🛒 E-commerce</h3>
+
+            <h4>Actifs critiques</h4>
+            <ul>
+                <li>Données bancaires des clients (cartes de crédit, coordonnées de paiement)</li>
+                <li>Informations personnelles des clients (adresses, emails, historique d'achats)</li>
+                <li>Plateforme de vente en ligne et système de paiement</li>
+                <li>Base de données produits et stocks</li>
+                <li>Système de gestion de la relation client (CRM)</li>
+            </ul>
+
+            <div class="menaces-list">
+                <h4>Menaces dominantes</h4>
+                <ul>
+                    <li><strong>Attaques par injection SQL</strong> : vol de bases de données clients</li>
+                    <li><strong>Skimming de cartes bancaires</strong> : interception des données de paiement</li>
+                    <li><strong>Attaques DDoS</strong> : interruption du service en ligne</li>
+                    <li><strong>Phishing ciblant les clients</strong> : usurpation d'identité de la marque</li>
+                    <li><strong>Fraude au paiement</strong> : transactions frauduleuses</li>
+                    <li><strong>Ransomware</strong> : chiffrement des données et demande de rançon</li>
+                </ul>
+            </div>
+
+            <div class="consequences-list">
+                <h4>Conséquences prévisibles</h4>
+                <ul>
+                    <li>💰 <strong>Pertes financières directes</strong> : remboursements, fraudes</li>
+                    <li>⚖️ <strong>Sanctions RGPD</strong> : amendes jusqu'à 4% du CA annuel</li>
+                    <li>📉 <strong>Atteinte réputationnelle majeure</strong> : perte de confiance des clients</li>
+                    <li>⏸️ <strong>Arrêt d'activité</strong> : impossibilité de vendre en ligne</li>
+                    <li>👥 <strong>Perte de clients</strong> : migration vers la concurrence</li>
+                </ul>
+            </div>
+
+            <p><strong>Type d'infrastructure :</strong> IT (Infrastructure Technologique)</p>
+        </section>
+
+        <section class="secteur-card">
+            <h3>🏥 Santé</h3>
+
+            <h4>Actifs critiques</h4>
+            <ul>
+                <li>Dossiers médicaux électroniques (DME) des patients</li>
+                <li>Systèmes d'information hospitaliers (SIH)</li>
+                <li>Équipements médicaux connectés (respirateurs, IRM, scanners)</li>
+                <li>Systèmes de gestion des rendez-vous et admissions</li>
+                <li>Données de recherche médicale</li>
+                <li>Systèmes de prescription et de distribution des médicaments</li>
+            </ul>
+
+            <div class="menaces-list">
+                <h4>Menaces dominantes</h4>
+                <ul>
+                    <li><strong>Ransomware ciblé</strong> : paralysie des établissements de santé</li>
+                    <li><strong>Vol de données médicales</strong> : dossiers patients très recherchés sur le dark web</li>
+                    <li><strong>Compromission d'équipements médicaux</strong> : risque pour la sécurité des patients</li>
+                    <li><strong>Attaques sur la chaîne d'approvisionnement</strong> : compromission de fournisseurs</li>
+                    <li><strong>Erreurs humaines</strong> : fuite accidentelle de données sensibles</li>
+                </ul>
+            </div>
+
+            <div class="consequences-list">
+                <h4>Conséquences prévisibles</h4>
+                <ul>
+                    <li>⚠️ <strong>Risques humains</strong> : mise en danger de la vie des patients</li>
+                    <li>⏸️ <strong>Arrêt d'activité</strong> : report d'opérations, fermeture de services</li>
+                    <li>💰 <strong>Pertes financières massives</strong> : coûts de récupération, rançons</li>
+                    <li>⚖️ <strong>Sanctions RGPD et sectorielles</strong> : données de santé ultra-sensibles</li>
+                    <li>📉 <strong>Atteinte réputationnelle</strong> : perte de confiance des patients</li>
+                </ul>
+            </div>
+
+            <p><strong>Type d'infrastructure :</strong> IT + OT (équipements médicaux = Operational Technology)</p>
+        </section>
+
+        <section class="secteur-card">
+            <h3>🏭 Industrie / Manufacturing</h3>
+
+            <h4>Actifs critiques</h4>
+            <ul>
+                <li>Systèmes de contrôle industriel (SCADA, ICS)</li>
+                <li>Automates programmables (PLC)</li>
+                <li>Chaînes de production et robots industriels</li>
+                <li>Systèmes de gestion de la production (MES)</li>
+                <li>Plans de conception et propriété intellectuelle</li>
+                <li>Système de gestion de la supply chain</li>
+            </ul>
+
+            <div class="menaces-list">
+                <h4>Menaces dominantes</h4>
+                <ul>
+                    <li><strong>Malware ciblant l'OT</strong> : arrêt ou sabotage de la production</li>
+                    <li><strong>Espionnage industriel</strong> : vol de secrets de fabrication</li>
+                    <li><strong>Ransomware industriel</strong> : paralysie des chaînes de production</li>
+                    <li><strong>Attaques sur la supply chain</strong> : compromission de fournisseurs</li>
+                    <li><strong>Sabotage d'équipements</strong> : dommages physiques via cyber-attaque</li>
+                    <li><strong>Compromission de systèmes anciens</strong> : exploitation de vulnérabilités non patchées</li>
+                </ul>
+            </div>
+
+            <div class="consequences-list">
+                <h4>Conséquences prévisibles</h4>
+                <ul>
+                    <li>⏸️ <strong>Arrêt de production</strong> : pertes financières massives par heure d'arrêt</li>
+                    <li>🔧 <strong>Dommages matériels</strong> : destruction d'équipements coûteux</li>
+                    <li>⚠️ <strong>Risques de sécurité physique</strong> : accidents industriels</li>
+                    <li>💰 <strong>Pertes de propriété intellectuelle</strong> : avantage concurrentiel perdu</li>
+                    <li>📉 <strong>Impact sur les clients</strong> : non-respect des délais de livraison</li>
+                </ul>
+            </div>
+
+            <p><strong>Type d'infrastructure :</strong> IT + OT (distinction critique entre réseau informatique et réseau industriel)</p>
+        </section>
+
+        <section class="secteur-card">
+            <h3>🏦 Finance & Banque</h3>
+
+            <h4>Actifs critiques</h4>
+            <ul>
+                <li>Systèmes de transaction financière</li>
+                <li>Données bancaires des clients (comptes, transactions)</li>
+                <li>Plateformes de trading et marchés financiers</li>
+                <li>Systèmes de paiement (SWIFT, virements)</li>
+                <li>Données d'identification et KYC (Know Your Customer)</li>
+                <li>Systèmes de détection de fraude</li>
+            </ul>
+
+            <div class="menaces-list">
+                <h4>Menaces dominantes</h4>
+                <ul>
+                    <li><strong>Fraude financière sophistiquée</strong> : manipulation de transactions</li>
+                    <li><strong>Attaques APT (Advanced Persistent Threat)</strong> : groupes organisés ciblant les banques</li>
+                    <li><strong>Compromission de systèmes SWIFT</strong> : détournement de fonds</li>
+                    <li><strong>Phishing et ingénierie sociale</strong> : vol de credentials</li>
+                    <li><strong>Attaques DDoS</strong> : interruption des services bancaires en ligne</li>
+                    <li><strong>Malware bancaire</strong> : vol de données de connexion</li>
+                </ul>
+            </div>
+
+            <div class="consequences-list">
+                <h4>Conséquences prévisibles</h4>
+                <ul>
+                    <li>💰 <strong>Pertes financières directes</strong> : vols, détournements de fonds</li>
+                    <li>⚖️ <strong>Sanctions réglementaires lourdes</strong> : BCE, ACPR, RGPD</li>
+                    <li>📉 <strong>Crise de confiance</strong> : panique bancaire, fuite des clients</li>
+                    <li>⏸️ <strong>Interruption de services critiques</strong> : impossibilité de réaliser des transactions</li>
+                    <li>🌐 <strong>Impact systémique</strong> : risque de contagion au système financier</li>
+                </ul>
+            </div>
+
+            <p><strong>Type d'infrastructure :</strong> IT (hautement régulé et surveillé)</p>
+        </section>
+
+        <section class="secteur-card">
+            <h3>💼 SaaS / Tech</h3>
+
+            <h4>Actifs critiques</h4>
+            <ul>
+                <li>Infrastructure cloud (serveurs, bases de données)</li>
+                <li>Code source et propriété intellectuelle</li>
+                <li>Données clients multi-tenants</li>
+                <li>Systèmes d'authentification et IAM</li>
+                <li>APIs et intégrations</li>
+                <li>Systèmes de sauvegarde et réplication</li>
+            </ul>
+
+            <div class="menaces-list">
+                <h4>Menaces dominantes</h4>
+                <ul>
+                    <li><strong>Attaques sur la supply chain logicielle</strong> : compromission de dépendances</li>
+                    <li><strong>Fuite de données clients</strong> : accès non autorisé aux données multi-tenants</li>
+                    <li><strong>Vulnérabilités d'API</strong> : exploitation d'endpoints mal sécurisés</li>
+                    <li><strong>Compromission de comptes privilégiés</strong> : accès admin</li>
+                    <li><strong>Attaques DDoS</strong> : interruption de service pour tous les clients</li>
+                    <li><strong>Mauvaise configuration cloud</strong> : exposition accidentelle de données</li>
+                </ul>
+            </div>
+
+            <div class="consequences-list">
+                <h4>Conséquences prévisibles</h4>
+                <ul>
+                    <li>⏸️ <strong>Interruption de service</strong> : impact sur tous les clients simultanément</li>
+                    <li>💰 <strong>Pertes financières</strong> : pénalités SLA, churn client</li>
+                    <li>📉 <strong>Destruction de réputation</strong> : perte rapide de confiance et de clients</li>
+                    <li>⚖️ <strong>Responsabilité légale</strong> : poursuites de clients impactés</li>
+                    <li>🔒 <strong>Vol de propriété intellectuelle</strong> : code source, algorithmes</li>
+                </ul>
+            </div>
+
+            <p><strong>Type d'infrastructure :</strong> IT (cloud-native)</p>
+        </section>
+
+        <section class="secteur-card">
+            <h3>🏛️ Collectivités & Administrations</h3>
+
+            <h4>Actifs critiques</h4>
+            <ul>
+                <li>Bases de données citoyens (état civil, impôts)</li>
+                <li>Systèmes de gestion administrative</li>
+                <li>Services publics en ligne (démarches administratives)</li>
+                <li>Systèmes de vidéosurveillance urbaine</li>
+                <li>Infrastructure de gestion des services urbains (eau, électricité)</li>
+                <li>Systèmes électoraux</li>
+            </ul>
+
+            <div class="menaces-list">
+                <h4>Menaces dominantes</h4>
+                <ul>
+                    <li><strong>Ransomware ciblant les collectivités</strong> : paralysie des services publics</li>
+                    <li><strong>Cyberattaques géopolitiques</strong> : attaques d'États ou groupes activistes</li>
+                    <li><strong>Vol de données citoyens</strong> : informations d'identité</li>
+                    <li><strong>Défacement de sites web</strong> : attaques à visée protestataire</li>
+                    <li><strong>Compromission de services critiques</strong> : eau, électricité, transports</li>
+                </ul>
+            </div>
+
+            <div class="consequences-list">
+                <h4>Conséquences prévisibles</h4>
+                <ul>
+                    <li>⏸️ <strong>Interruption de services publics</strong> : impact direct sur les citoyens</li>
+                    <li>💰 <strong>Coûts de remise en état</strong> : budgets publics limités</li>
+                    <li>⚖️ <strong>Responsabilité politique</strong> : crise de gouvernance</li>
+                    <li>📉 <strong>Perte de confiance citoyenne</strong> : défiance envers les institutions</li>
+                    <li>⚠️ <strong>Risques pour la sécurité publique</strong> : services d'urgence impactés</li>
+                </ul>
+            </div>
+
+            <p><strong>Type d'infrastructure :</strong> IT + OT (services urbains)</p>
+        </section>
+
+        <section>
+            <h2>Prochaines étapes</h2>
+            <p>Maintenant que vous avez identifié votre contexte, explorez les sections suivantes :</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>📚 Sensibilisation</h3>
+                    <p>Formez vos équipes selon leur profil</p>
+                    <a href="sensibilisation.html" class="btn">Continuer</a>
+                </div>
+                <div class="card">
+                    <h3>⚖️ Réglementation</h3>
+                    <p>Découvrez vos obligations légales</p>
+                    <a href="reglementation.html" class="btn">Continuer</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CyberGuide - Plateforme d'orientation en cybersécurité pour entreprises</p>
+        </div>
+    </footer>
+</body>
+</html>

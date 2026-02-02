@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz & Checklist - CyberGuide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">🛡️ CyberGuide</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="secteurs.html">Votre Contexte</a></li>
+                <li><a href="sensibilisation.html">Sensibilisation</a></li>
+                <li><a href="reglementation.html">Réglementation</a></li>
+                <li><a href="acteurs.html">Acteurs</a></li>
+                <li><a href="prestataires.html">Prestataires</a></li>
+                <li><a href="outils.html">Outils</a></li>
+                <li><a href="action.html">Quiz & Checklist</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Passez à l'action !</h1>
+            <p class="subtitle">Quiz, checklists et scénarios pour appliquer vos connaissances</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Mettez en pratique</h2>
+            <p>Cette section vous propose des outils concrets pour évaluer vos connaissances, identifier vos priorités et vous préparer aux incidents.</p>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>📝 Quiz de sensibilisation</h3>
+                    <p>Testez votre compréhension des menaces et bonnes pratiques</p>
+                    <a href="#quiz" class="btn">Faire le quiz</a>
+                </div>
+                <div class="card">
+                    <h3>✅ Checklist de sécurité</h3>
+                    <p>Actions prioritaires à mettre en place dans votre organisation</p>
+                    <a href="#checklist" class="btn">Voir la checklist</a>
+                </div>
+                <div class="card">
+                    <h3>🎭 Scénario d'incident</h3>
+                    <p>Entraînez-vous à réagir face à une cyberattaque</p>
+                    <a href="#scenario" class="btn">Découvrir le scénario</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz">
+            <h2>📝 Quiz de Sensibilisation Cybersécurité</h2>
+            <p>Évaluez vos connaissances sur les menaces cyber et les bonnes pratiques. Pour chaque question, choisissez la (ou les) bonne(s) réponse(s).</p>
+
+            <div class="quiz-container">
+                <div class="question">
+                    <h3>Question 1 : Qu'est-ce que le phishing ?</h3>
+                    <div class="options">
+                        <li>A) Une technique de pêche en haute mer</li>
+                        <li>B) Une tentative frauduleuse d'obtenir des informations sensibles en se faisant passer pour une entité de confiance ✅</li>
+                        <li>C) Un type de virus informatique qui se propage automatiquement</li>
+                        <li>D) Un outil de hacking pour casser les mots de passe</li>
+                    </div>
+                    <p><strong>Réponse correcte : B</strong></p>
+                    <p><em>Explication : Le phishing (hameçonnage) est une technique d'ingénierie sociale où un attaquant se fait passer pour une entité légitime (banque, collègue, service) pour voler des informations.</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 2 : Qu'est-ce que l'authentification multi-facteurs (MFA) ?</h3>
+                    <div class="options">
+                        <li>A) Utiliser un mot de passe très long</li>
+                        <li>B) Changer son mot de passe régulièrement</li>
+                        <li>C) Combiner deux ou plusieurs méthodes d'authentification indépendantes (ex: mot de passe + code SMS) ✅</li>
+                        <li>D) Avoir plusieurs comptes utilisateurs</li>
+                    </div>
+                    <p><strong>Réponse correcte : C</strong></p>
+                    <p><em>Explication : La MFA exige plusieurs preuves d'identité (quelque chose que vous savez + quelque chose que vous avez + quelque chose que vous êtes).</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 3 : Vous recevez un email urgent de votre "banque" vous demandant de vérifier votre compte en cliquant sur un lien. Que faites-vous ?</h3>
+                    <div class="options">
+                        <li>A) Je clique immédiatement, c'est urgent !</li>
+                        <li>B) Je vérifie l'adresse email de l'expéditeur, survole le lien pour voir l'URL réelle, et contacte ma banque par un autre canal (téléphone, site officiel) ✅</li>
+                        <li>C) Je réponds à l'email pour demander si c'est légitime</li>
+                        <li>D) Je transfère l'email à tous mes collègues pour les prévenir</li>
+                    </div>
+                    <p><strong>Réponse correcte : B</strong></p>
+                    <p><em>Explication : En cas de doute, toujours vérifier par un autre canal. Les banques ne demandent JAMAIS d'informations sensibles par email.</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 4 : Qu'est-ce qu'un ransomware ?</h3>
+                    <div class="options">
+                        <li>A) Un logiciel qui chiffre vos données et demande une rançon pour les déchiffrer ✅</li>
+                        <li>B) Un type de phishing ciblant les dirigeants</li>
+                        <li>C) Un outil de sauvegarde automatique</li>
+                        <li>D) Un scan de vulnérabilités</li>
+                    </div>
+                    <p><strong>Réponse correcte : A</strong></p>
+                    <p><em>Explication : Le ransomware (rançongiciel) chiffre vos fichiers et exige un paiement en cryptomonnaie pour les récupérer. La meilleure défense : des sauvegardes offline régulières.</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 5 : Parmi ces pratiques, lesquelles sont recommandées ? (Plusieurs réponses possibles)</h3>
+                    <div class="options">
+                        <li>A) Utiliser le même mot de passe pour tous mes comptes</li>
+                        <li>B) Verrouiller mon écran quand je quitte mon bureau ✅</li>
+                        <li>C) Installer les mises à jour de sécurité rapidement ✅</li>
+                        <li>D) Utiliser un gestionnaire de mots de passe ✅</li>
+                        <li>E) Partager mon mot de passe avec un collègue de confiance</li>
+                        <li>F) Activer l'authentification multi-facteurs sur tous mes comptes professionnels ✅</li>
+                    </div>
+                    <p><strong>Réponses correctes : B, C, D, F</strong></p>
+                    <p><em>Explication : Ne JAMAIS réutiliser ou partager des mots de passe. Toujours verrouiller, mettre à jour, utiliser un gestionnaire de mots de passe et activer la MFA.</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 6 : Qu'est-ce que le RGPD ?</h3>
+                    <div class="options">
+                        <li>A) Un type de malware</li>
+                        <li>B) Le Règlement Général sur la Protection des Données, réglementation européenne sur les données personnelles ✅</li>
+                        <li>C) Un outil de chiffrement</li>
+                        <li>D) Une certification de sécurité</li>
+                    </div>
+                    <p><strong>Réponse correcte : B</strong></p>
+                    <p><em>Explication : Le RGPD encadre la collecte et le traitement des données personnelles en Europe. Sanctions jusqu'à 4% du CA ou 20M€.</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 7 : Quelle est la règle 3-2-1 pour les sauvegardes ?</h3>
+                    <div class="options">
+                        <li>A) 3 sauvegardes, 2 supports différents, 1 copie hors site/offline ✅</li>
+                        <li>B) Sauvegarder 3 fois par jour, 2 fois par semaine, 1 fois par mois</li>
+                        <li>C) 3 serveurs, 2 datacenters, 1 administrateur</li>
+                        <li>D) 3 copies sur le même disque dur</li>
+                    </div>
+                    <p><strong>Réponse correcte : A</strong></p>
+                    <p><em>Explication : La règle 3-2-1 garantit que même en cas de ransomware ou catastrophe, vous pouvez restaurer vos données.</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 8 : Qu'est-ce qu'un EDR ?</h3>
+                    <div class="options">
+                        <li>A) European Data Regulation</li>
+                        <li>B) Endpoint Detection and Response - solution qui surveille et protège les postes de travail ✅</li>
+                        <li>C) Email Data Recovery</li>
+                        <li>D) Enterprise Disaster Recovery</li>
+                    </div>
+                    <p><strong>Réponse correcte : B</strong></p>
+                    <p><em>Explication : L'EDR est l'évolution de l'antivirus : détection comportementale, isolation automatique, investigation forensique.</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 9 : Un collègue vous appelle en se présentant comme le support IT et vous demande votre mot de passe pour "une maintenance urgente". Que faites-vous ?</h3>
+                    <div class="options">
+                        <li>A) Je lui donne car c'est le support IT</li>
+                        <li>B) Je refuse et je vérifie son identité par un autre moyen (annuaire interne, rappel au support) ✅</li>
+                        <li>C) Je lui donne à condition qu'il me promette de le garder secret</li>
+                        <li>D) Je change mon mot de passe après lui avoir donné</li>
+                    </div>
+                    <p><strong>Réponse correcte : B</strong></p>
+                    <p><em>Explication : C'est une tentative d'ingénierie sociale. Le vrai support IT ne demande JAMAIS votre mot de passe. Toujours vérifier l'identité.</em></p>
+                </div>
+
+                <div class="question">
+                    <h3>Question 10 : Quel est le premier réflexe en cas de cyberattaque en France ?</h3>
+                    <div class="options">
+                        <li>A) Payer la rançon immédiatement</li>
+                        <li>B) Éteindre tous les ordinateurs et attendre</li>
+                        <li>C) Contacter Cybermalveillance.gouv.fr (0 805 805 817) et/ou le CERT-FR ✅</li>
+                        <li>D) Supprimer toutes les preuves</li>
+                    </div>
+                    <p><strong>Réponse correcte : C</strong></p>
+                    <p><em>Explication : Cybermalveillance.gouv.fr est la plateforme officielle d'assistance. Ils vous guideront et vous mettront en relation avec des experts.</em></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>📊 Interprétation des résultats</h3>
+                <ul>
+                    <li><strong>9-10 bonnes réponses :</strong> Excellent ! Vous maîtrisez les bases de la cybersécurité.</li>
+                    <li><strong>7-8 bonnes réponses :</strong> Bon niveau. Revoyez les points où vous avez eu faux.</li>
+                    <li><strong>5-6 bonnes réponses :</strong> Des lacunes importantes. Formation recommandée.</li>
+                    <li><strong>Moins de 5 :</strong> Niveau insuffisant. Formation urgente nécessaire !</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="checklist">
+            <h2>✅ Checklist de Sécurité - Actions Prioritaires</h2>
+            <p>Cette checklist vous aide à prioriser les actions de sécurité dans votre organisation. Cochez au fur et à mesure de votre progression.</p>
+
+            <h3>🟢 Niveau 1 : Fondamentaux (à faire EN PRIORITÉ)</h3>
+            <ul class="checklist">
+                <li><strong>Inventaire des actifs</strong> : Lister tous les équipements, applications, données critiques</li>
+                <li><strong>Antivirus/EDR sur tous les postes</strong> : Protection de base contre malwares</li>
+                <li><strong>Firewall actif et configuré</strong> : Protéger le périmètre réseau</li>
+                <li><strong>Mises à jour automatiques</strong> : OS, applications, firmware (ou processus de patch management)</li>
+                <li><strong>Sauvegarde régulière</strong> : Règle 3-2-1, testée et fonctionnelle</li>
+                <li><strong>Mots de passe forts et uniques</strong> : Minimum 12 caractères, pas de réutilisation</li>
+                <li><strong>MFA activée</strong> : Au moins sur les comptes admin, email, VPN</li>
+                <li><strong>Chiffrement des disques</strong> : BitLocker, FileVault ou équivalent sur tous les laptops</li>
+                <li><strong>WiFi sécurisé</strong> : WPA3 ou WPA2, mot de passe fort, SSID invité séparé</li>
+                <li><strong>Sensibilisation de base</strong> : Tous les employés formés aux risques (phishing, mots de passe)</li>
+            </ul>
+
+            <h3>🟡 Niveau 2 : Intermédiaire (une fois le niveau 1 acquis)</h3>
+            <ul class="checklist">
+                <li><strong>Politique de sécurité écrite</strong> : Document formalisé et communiqué</li>
+                <li><strong>Analyse de risques</strong> : Identifier les actifs critiques et menaces principales</li>
+                <li><strong>Gestion centralisée des comptes (IAM)</strong> : SSO, gestion des droits, offboarding automatique</li>
+                <li><strong>Segmentation réseau</strong> : VLAN, séparation des environnements (prod/dev/admin)</li>
+                <li><strong>Monitoring et logs centralisés</strong> : Collecter les logs pour investigation</li>
+                <li><strong>Scan de vulnérabilités régulier</strong> : Mensuel ou trimestriel minimum</li>
+                <li><strong>Sécurité email avancée</strong> : Anti-phishing, sandbox, bannières d'avertissement</li>
+                <li><strong>MDM pour appareils mobiles</strong> : Gestion et sécurisation des smartphones/tablettes</li>
+                <li><strong>Plan de continuité (PCA/PRA)</strong> : Procédures en cas d'incident majeur</li>
+                <li><strong>Conformité RGPD</strong> : Registre des traitements, APIA si nécessaire</li>
+                <li><strong>Tests de restauration</strong> : Vérifier que les sauvegardes fonctionnent</li>
+                <li><strong>Campagne de phishing simulé</strong> : Tester la vigilance des employés</li>
+            </ul>
+
+            <h3>🔴 Niveau 3 : Avancé (maturité élevée)</h3>
+            <ul class="checklist">
+                <li><strong>SIEM déployé</strong> : Corrélation d'événements, alertes automatiques</li>
+                <li><strong>SOC interne ou MSSP</strong> : Surveillance 24/7</li>
+                <li><strong>Threat Intelligence</strong> : Veille sur les menaces ciblant votre secteur</li>
+                <li><strong>Pentest annuel</strong> : Test d'intrusion externe et interne</li>
+                <li><strong>Red Team exercise</strong> : Simulation d'attaque avancée (APT)</li>
+                <li><strong>Zero Trust architecture</strong> : "Ne jamais faire confiance, toujours vérifier"</li>
+                <li><strong>DLP (Data Loss Prevention)</strong> : Prévenir les fuites de données</li>
+                <li><strong>CASB (Cloud Access Security Broker)</strong> : Sécurité des applications cloud (SaaS)</li>
+                <li><strong>SOAR (Security Orchestration)</strong> : Automatisation de la réponse aux incidents</li>
+                <li><strong>Bug Bounty program</strong> : Programme de prime aux chercheurs en sécurité</li>
+                <li><strong>Certification ISO 27001</strong> : Démontrer votre maturité en sécurité</li>
+                <li><strong>Table-top exercise</strong> : Exercice de crise cyber régulier (simulation)</li>
+            </ul>
+
+            <h3>⚖️ Conformité réglementaire</h3>
+            <ul class="checklist">
+                <li><strong>RGPD : Registre des traitements</strong> à jour</li>
+                <li><strong>RGPD : DPO désigné</strong> si nécessaire</li>
+                <li><strong>RGPD : Procédure de notification de violation</strong> (72h)</li>
+                <li><strong>NIS2 : Évaluation d'applicabilité</strong> (si secteur concerné)</li>
+                <li><strong>PCI DSS : Conformité</strong> si traitement de cartes bancaires</li>
+                <li><strong>Conformité sectorielle</strong> : HDS (santé), DORA (finance), OIV si applicable</li>
+            </ul>
+        </section>
+
+        <section id="scenario">
+            <h2>🎭 Scénario d'Incident : Attaque Ransomware</h2>
+            <p>Ce scénario vous permet de vous entraîner à réagir face à une cyberattaque. Lisez la situation et réfléchissez aux actions à prendre.</p>
+
+            <div class="card">
+                <h3>📖 Contexte</h3>
+                <p>Vous êtes responsable IT d'une PME de 80 personnes dans le secteur e-commerce. Il est 8h30 un lundi matin.</p>
+            </div>
+
+            <div class="secteur-card">
+                <h3>🚨 Phase 1 : Détection (T+0 - 8h30)</h3>
+                <p><strong>Situation :</strong> Plusieurs employés vous signalent qu'ils ne peuvent plus accéder à leurs fichiers. Vous constatez que les fichiers ont une extension ".locked" et un message de rançon s'affiche sur plusieurs écrans demandant 50 000€ en Bitcoin.</p>
+
+                <h4>❓ Que faites-vous immédiatement ?</h4>
+                <details>
+                    <summary><strong>Voir les actions recommandées</strong></summary>
+                    <ol>
+                        <li>✅ <strong>NE PAS ÉTEINDRE les machines</strong> (perdraitdes preuves en RAM) mais les isoler du réseau</li>
+                        <li>✅ <strong>Activer la cellule de crise</strong> : Alerter la direction, l'équipe IT, le responsable juridique</li>
+                        <li>✅ <strong>Contacter Cybermalveillance.gouv.fr</strong> : 0 805 805 817</li>
+                        <li>✅ <strong>Contacter votre prestataire d'incident response</strong> si vous en avez un (retainer)</li>
+                        <li>✅ <strong>Isoler les machines infectées</strong> : Débrancher réseau (pas couper électricité)</li>
+                        <li>✅ <strong>Identifier le périmètre</strong> : Combien de machines ? Serveurs touchés ? Sauvegardes ?</li>
+                        <li>✅ <strong>Changer les mots de passe des comptes admin</strong> (l'attaquant peut avoir des accès)</li>
+                        <li>✅ <strong>Prendre des photos du message de rançon</strong> et conserver des preuves</li>
+                        <li>✅ <strong>Vérifier l'état des sauvegardes</strong> : Sont-elles intactes et offline ?</li>
+                    </ol>
+                    <h4>⛔ Ce qu'il NE FAUT PAS faire :</h4>
+                    <ul>
+                        <li>❌ Payer la rançon immédiatement (pas de garantie de récupération + finance le crime)</li>
+                        <li>❌ Éteindre brutalement toutes les machines (perte de preuves forensiques)</li>
+                        <li>❌ Paniquer et agir précipitamment</li>
+                        <li>❌ Cacher l'incident à la direction</li>
+                    </ul>
+                </details>
+            </div>
+
+            <div class="secteur-card">
+                <h3>🔍 Phase 2 : Containment et Investigation (T+2h - 10h30)</h3>
+                <p><strong>Situation :</strong> L'expert de Cybermalveillance vous a mis en relation avec un prestataire DFIR. L'analyse préliminaire montre que l'attaque a commencé vendredi soir à 22h via un email de phishing reçu par un employé jeudi. Le ransomware est de type LockBit.</p>
+
+                <h4>❓ Quelles actions entreprendre maintenant ?</h4>
+                <details>
+                    <summary><strong>Voir les actions recommandées</strong></summary>
+                    <ol>
+                        <li>✅ <strong>Laisser le prestataire DFIR investiguer</strong> : Analyse forensique approfondie</li>
+                        <li>✅ <strong>Containment complet</strong> : Isolation de tous les systèmes suspects</li>
+                        <li>✅ <strong>Vérifier les sauvegardes</strong> :
+                            <ul>
+                                <li>Sauvegardes offline intactes ? ✅ Possibilité de restauration</li>
+                                <li>Sauvegardes chiffrées aussi ? ❌ Situation critique</li>
+                            </ul>
+                        </li>
+                        <li>✅ <strong>Identifier la source</strong> : Email de phishing ? Vulnérabilité ? RDP exposé ?</li>
+                        <li>✅ <strong>Évaluer l'exfiltration</strong> : L'attaquant a-t-il volé des données ? (double extorsion)</li>
+                        <li>✅ <strong>Communication interne</strong> : Informer les employés sans créer de panique</li>
+                        <li>✅ <strong>Préparer la communication externe</strong> : Clients, partenaires (si nécessaire)</li>
+                        <li>✅ <strong>Notification CNIL</strong> : Si données personnelles compromises (obligation 72h)</li>
+                        <li>✅ <strong>Contacter votre assurance cyber</strong> si vous en avez une</li>
+                    </ol>
+                </details>
+            </div>
+
+            <div class="secteur-card">
+                <h3>🔧 Phase 3 : Éradication et Récupération (T+6h à plusieurs jours)</h3>
+                <p><strong>Situation :</strong> Bonne nouvelle : vos sauvegardes offline (tesées il y a 2 mois) sont intactes. Vous pouvez restaurer. Mais d'abord, il faut s'assurer que l'attaquant n'a plus d'accès.</p>
+
+                <h4>❓ Plan de récupération ?</h4>
+                <details>
+                    <summary><strong>Voir les actions recommandées</strong></summary>
+                    <h4>Éradication :</h4>
+                    <ol>
+                        <li>✅ <strong>Supprimer tous les accès de l'attaquant</strong> :
+                            <ul>
+                                <li>Réinitialisation de TOUS les mots de passe (utilisateurs et admin)</li>
+                                <li>Révocation de toutes les sessions actives</li>
+                                <li>Suppression des comptes non autorisés</li>
+                                <li>Vérification des backdoors et persistence mechanisms</li>
+                            </ul>
+                        </li>
+                        <li>✅ <strong>Corriger la vulnérabilité initiale</strong> :
+                            <ul>
+                                <li>Formation anti-phishing de l'employé concerné</li>
+                                <li>Renforcement de la sécurité email</li>
+                                <li>Si vulnérabilité technique : patcher</li>
+                            </ul>
+                        </li>
+                        <li>✅ <strong>Scan complet antimalware</strong> de tous les systèmes</li>
+                        <li>✅ <strong>Reconstruction des systèmes critiques</strong> depuis des images propres</li>
+                    </ol>
+
+                    <h4>Récupération :</h4>
+                    <ol>
+                        <li>✅ <strong>Restauration progressive</strong> : Commencer par les systèmes critiques</li>
+                        <li>✅ <strong>Vérification d'intégrité</strong> des données restaurées</li>
+                        <li>✅ <strong>Tests fonctionnels</strong> avant remise en production</li>
+                        <li>✅ <strong>Monitoring renforcé</strong> pendant la phase de récupération</li>
+                        <li>✅ <strong>Communication</strong> : Informer progressivement de la reprise d'activité</li>
+                    </ol>
+
+                    <h4>Si les sauvegardes n'existaient pas ou étaient chiffrées :</h4>
+                    <ul>
+                        <li>🔍 Vérifier si un décrypteur gratuit existe (NoMoreRansom.org)</li>
+                        <li>⚖️ Décision difficile : payer ou non ? (consulter experts, police, juristes)</li>
+                        <li>💰 Si paiement : Aucune garantie de récupération (30% ne récupèrent pas même après paiement)</li>
+                        <li>📊 Reconstruction from scratch si aucune solution</li>
+                    </ul>
+                </details>
+            </div>
+
+            <div class="secteur-card">
+                <h3>📊 Phase 4 : Retour d'expérience et Amélioration (Post-incident)</h3>
+                <p><strong>Situation :</strong> 2 semaines après l'incident, l'activité est revenue à la normale. 95% des données ont été récupérées. Impact : 3 jours d'arrêt partiel, coûts estimés à 80 000€ (perte d'exploitation + expert DFIR + heures supplémentaires).</p>
+
+                <h4>❓ Que faire pour éviter que ça se reproduise ?</h4>
+                <details>
+                    <summary><strong>Voir les actions recommandées</strong></summary>
+                    <ol>
+                        <li>✅ <strong>Débriefing complet</strong> : REX (Retour d'Expérience) avec toutes les parties prenantes</li>
+                        <li>✅ <strong>Analyse des causes profondes</strong> : Comment l'attaquant est-il entré ? Pourquoi n'a-t-on pas détecté avant ?</li>
+                        <li>✅ <strong>Plan d'action correctif</strong> :
+                            <ul>
+                                <li>Déployer un EDR sur tous les postes</li>
+                                <li>Renforcer la sécurité email (anti-phishing avancé)</li>
+                                <li>MFA obligatoire pour TOUS les comptes</li>
+                                <li>Segmentation réseau</li>
+                                <li>Formation obligatoire de tous les employés</li>
+                                <li>Campagnes de phishing simulé trimestrielles</li>
+                                <li>Tests de restauration mensuels</li>
+                                <li>Sauvegardes immutables (protection anti-ransomware)</li>
+                            </ul>
+                        </li>
+                        <li>✅ <strong>Mise à jour du PCA/PRA</strong> avec les leçons apprises</li>
+                        <li>✅ <strong>Souscrire une assurance cyber</strong> si ce n'était pas fait</li>
+                        <li>✅ <strong>Établir un retainer avec un prestataire DFIR</strong> pour future intervention rapide</li>
+                        <li>✅ <strong>Exercice de crise régulier</strong> : Simuler un incident tous les 6 mois</li>
+                    </ol>
+                </details>
+            </div>
+
+            <div class="card">
+                <h3>📚 Leçons clés de ce scénario</h3>
+                <ul>
+                    <li>⏱️ <strong>Le temps est critique</strong> : Chaque minute compte pour limiter l'impact</li>
+                    <li>🔄 <strong>Les sauvegardes offline sauvent</strong> : Règle 3-2-1 non négociable</li>
+                    <li>📞 <strong>Avoir des contacts d'urgence AVANT</strong> l'incident (retainer, hotlines)</li>
+                    <li>🎓 <strong>La sensibilisation est essentielle</strong> : L'humain est souvent le maillon faible</li>
+                    <li>📋 <strong>Un plan testé vaut mieux qu'un plan parfait</strong> : Exercices réguliers</li>
+                    <li>🚫 <strong>Payer la rançon n'est pas une solution</strong> : Privilégier la prévention</li>
+                    <li>⚖️ <strong>Obligations légales</strong> : Notification CNIL, dépôt de plainte</li>
+                    <li>💰 <strong>L'impact financier est bien au-delà de la rançon</strong> : Perte d'exploitation, réputation</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>🎯 Prochaines étapes</h2>
+            <p>Vous avez maintenant toutes les clés pour démarrer votre parcours de sécurisation !</p>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>📚 Approfondir</h3>
+                    <p>Revisitez les sections pour plus de détails</p>
+                    <a href="sensibilisation.html" class="btn">Sensibilisation</a>
+                    <a href="reglementation.html" class="btn btn-secondary">Réglementation</a>
+                </div>
+
+                <div class="card">
+                    <h3>🤝 Passer à l'action</h3>
+                    <p>Contactez les bons interlocuteurs</p>
+                    <a href="acteurs.html" class="btn">Acteurs étatiques</a>
+                    <a href="prestataires.html" class="btn btn-secondary">Prestataires</a>
+                </div>
+
+                <div class="card">
+                    <h3>🏠 Retour accueil</h3>
+                    <p>Vue d'ensemble de la plateforme</p>
+                    <a href="index.html" class="btn">Accueil</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CyberGuide - Plateforme d'orientation en cybersécurité pour entreprises</p>
+            <p>Projet réalisé dans le cadre de l'évaluation ECSI3 - SecureSphere by EPITA</p>
+        </div>
+    </footer>
+</body>
+</html>
